@@ -1,0 +1,176 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bodymenu{
+ background-color: #BFDCE5;
+ padding: auto;
+ 
+}
+.bodykiri{
+    background-color: #EEEEEE;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color:#3A98B9;
+    
+}
+
+hr{
+	border:red dashed 2px;
+	margin:20px 0px;
+}
+.bodysidebar{
+    background-color: #EEEEEE;
+}
+
+.navatas ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+    margin: auto;
+    
+}
+
+.navatas li {
+    float: left;
+    border-right:2px solid #ffffff;
+}
+
+.navatas li:last-child {
+    border-right: none;
+}
+
+.navatas li a {
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navatas li a:hover:not(.active) {
+    border: 5px solid w;
+    background-color: #6a543b;
+}
+  
+.navatas .active {
+    background-color: #04AA6D;
+}
+
+.navatas a:link, a:visited{
+	text-decoration:none;
+	padding:5px;
+	background-color:#BAD7E9;
+	margin:0px 5px;
+}
+
+legend#body{
+    color:#3A98B9;
+    border-bottom: 3px solid #4178b5;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    line-height: 22px;
+    padding: 1px 10px 2px 10px;
+    text-transform: uppercase;
+    border: #3A98B9 5px outset;
+}
+legend#sidebar{
+    color:#3A98B9;
+    border-bottom: 3px solid #4178b5;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    line-height: 22px;
+    padding: 1px 10px 2px 10px;
+    text-transform: uppercase;
+}
+fieldset, img{
+    border: #3A98B9 5px outset;
+    font-weight: bolder;
+}
+
+p#atas{
+    text-decoration:none;
+	color:red;
+	font-weight:bolder;
+    text-align: right;
+}
+
+p#bawah{
+    text-decoration:none;
+	color:red;
+	font-weight:bolder;
+    text-align: right;
+}
+
+.sidebar ul {
+    background: #BFDCE5;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+.sidebar ul li {
+    text-decoration: none;
+    background: white;
+    color: darkblue;
+    margin: 5px;
+  }
+
+.right{
+    text-align: right;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.left{
+    margin: 10px;
+    font-weight: bolder;
+}
+
+p{
+    text-align: justify;
+}
+
+p.p1:first-line{
+	font-family:consolas, calibri, cambria;
+	background-color:yellow;
+	color:blue;
+	font-style:italic;
+}
+
+p.p1:first-letter{
+	font-size:30pt;
+	font-family:consolas, calibri, cambria;
+	float:left;
+	color:red;
+}
+p.p2{
+    text-indent: 1.5cm;
+    padding: 5px;
+}
+
+.tabel{
+    font-size: 25px ;
+    margin: 10px;
+    color: #232323;
+}
+
+.tabel, th, td{
+    padding: 8px 10px;
+}
+
+
+ul.minuman{
+    list-style-image: url('../image/frog.png');
+}
+
+ul.makanan{
+    list-style-image: url('../image/genie.png');
+}
+

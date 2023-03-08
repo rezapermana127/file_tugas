@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <fieldset><legend id="body">
+    Contact Me</legend>
+    <form>
+        <label>Nama:</label>&nbsp;
+        <input type="text" name="nama"/><br/>
+        <label>Password:</label>&nbsp;
+        <input type="password" name="passsword"/><br/>
+        <label>Gender:</label>&nbsp;
+        <input type="radio" name="gender" value="L"/>&nbsp;Laki-Laki
+        <input type="radio" name="gender" value="P"/>&nbsp;Perempuan<br/>
+        <label>Hobby:</label><br/>
+        <input type="checkbox" name="hobby" value="Olahraga"/>&nbsp;Olahraga<br/>
+        <input type="checkbox" name="hobby" value="Membaca" checked/>&nbsp;Membaca<br/>
+        <input type="checkbox" name="hobby" value="Menulis"/>&nbsp;Menulis<br/>
+        <input type="checkbox" name="hobby" value="Memasak"/>&nbsp;Memasak<br/>
+        <label>Pendidikan:</label>&nbsp;
+        <select name="pendidikan">
+            <option value="SMA">SMA</option>
+            <option value="D3">D3</option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+        </select><br/>
+        <label>Alamat Lengkap:</label>&nbsp;
+        <textarea name="alamatLengkap" cols="100" rows="5"></textarea>
+        <hr/>
+        <input type="submit" name="proses" value="simpan"/>&nbsp;
+        <input type="reset" name="unproses" value="batal"/>
+    </form>
+</fieldset>
+</body>
+</html>
